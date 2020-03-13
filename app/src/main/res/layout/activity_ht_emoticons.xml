@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgbl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="#Emoticons"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:id="@+id/coursename"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:id="@+id/first"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Did the course meet your expectations?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating"
+            android:layout_below="@id/first"
+            android:theme="@style/RatingBar"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/second"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Was the teaching effective?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating1"
+            android:layout_width="match_parent"
+            android:theme="@style/RatingBar"
+            android:layout_below="@id/second"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/third"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Was the Tests and exams conducted tested the subject skills?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating2"
+            android:layout_width="match_parent"
+            android:layout_below="@id/second"
+            android:theme="@style/RatingBar"
+        android:layout_marginTop="7dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/four"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Does the course meet the current trending technologies?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating3"
+            android:layout_width="match_parent"
+            android:layout_below="@id/second"
+            android:theme="@style/RatingBar"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/five"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Was creative learning methods used in the course?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating4"
+            android:layout_width="match_parent"
+            android:layout_below="@id/second"
+            android:theme="@style/RatingBar"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="140dp"
+            android:onClick="login"
+            android:padding="12dp"
+            android:background="#0D47A1"
+            android:textColor="#fff"
+            android:text="Submit"/>
+
+
+    </LinearLayout>
+</ScrollView>

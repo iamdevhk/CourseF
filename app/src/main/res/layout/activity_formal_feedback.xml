@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bgbl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Formal Feedback"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:id="@+id/coursename"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:id="@+id/first"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How do you think could the sylabbus be improvised to add more effectiveness?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#fff"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/first"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Answer:"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:id="@+id/second"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How do you think the role of the faculty improved the course?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#fff"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/second"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Answer:"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:id="@+id/third"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Any other suggestions?"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#4689C8"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="#fff"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/second"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Answer:"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="140dp"
+            android:onClick="login"
+            android:padding="12dp"
+            android:background="#FF9800"
+            android:textColor="#fff"
+            android:text="Submit"/>
+
+
+    </LinearLayout>
+</ScrollView>

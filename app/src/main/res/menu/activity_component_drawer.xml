@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_df"
+            android:icon="@drawable/ic_action_forum"
+            android:title="Discussion Forum" />
+        <item
+            android:id="@+id/nav_ff"
+            android:icon="@drawable/ic_action_feedback"
+            android:title="Formal Feedback" />
+        <item
+            android:id="@+id/nav_he"
+            android:icon="@drawable/ic_action_emoji"
+            android:title="#Emoticons" />
+        <item
+            android:id="@+id/nav_cr"
+            android:icon="@drawable/ic_action_stars"
+            android:title="Check Ratings" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_action_faq"
+            android:title="FAQ's" />
+
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_action_logy"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

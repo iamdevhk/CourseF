@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CourseF</string>
+    <string-array name="Department">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MEE</item>
+        <item>AER</item>
+        <item>CHM</item>
+        <item>CIV</item>
+    </string-array>
+    <string-array name="Year">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+    </string-array>
+    <string-array name="df">
+        <item>Question</item>
+        <item>Answer</item>
+    </string-array>
+    <string-array name="courses">
+        <item>DBMS</item>
+        <item>CLOUD COMPUTING</item>
+        <item>ANDROID</item>
+        <item>SOFTWARE ENGINEERING</item>
+        <item>COMPILER DESIGN</item>
+        <item>MACHINE LEARNING</item>
+        <item>OPEN LAB</item>
+        <item>NETWORKS</item>
+
+    </string-array>
+    <string-array name="ffquestions">
+        <item>How do you think could the syllabus be improvised to add more effectiveness?</item>
+        <item>How do you think the role of the faculty improved the course?</item>
+        <item>Any other suggestions?</item>
+    </string-array>
+    <string name="title_activity_component">Component</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_forumm">forumm</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_frt">frt</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
